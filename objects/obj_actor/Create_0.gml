@@ -6,3 +6,7 @@ mvmt_spd = 0;
 desired_xpos = x;
 desired_ypos = y;
 hit_points = 3;
+invincible = false;
+harmful_touch = false;
+invincibility_timer = 20;
+is_hit = false;

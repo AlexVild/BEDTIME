@@ -7,6 +7,8 @@ enum Domains {
 enum GamePlayerStates {
 	IDLE,
 	MOVE,
+	HIT,
+	DEAD,
 }
 
 enum PhoneState {

@@ -1,11 +1,11 @@
 // @func draw_text_outlined(x, y, outline color, string color, string)  
 // @desc user Allen_Production
 //			https://www.reddit.com/r/gamemaker/comments/3ryb11/basic_outlined_text_script/
-// @params {real} x - x position to draw
-// @params {real} y - y position to draw
-// @params {string} outline_color - color of outline
-// @params {string} color - color of string
-// @params {string} string - what to draw
+// @args {real} x - x position to draw
+// @args {real} y - y position to draw
+// @args {string} outline_color - color of outline
+// @args  {string} color - color of string
+// @args {string} string - what to draw
 
 var xx, yy;
 xx = argument[0];  

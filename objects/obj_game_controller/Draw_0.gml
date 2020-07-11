@@ -1,0 +1,8 @@
+
+draw_set_color(c_green);
+draw_set_alpha(0.5);
+draw_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, false);
+draw_set_alpha(1);
+draw_set_color(-1);
+
+draw_self();

@@ -4,40 +4,36 @@
     "mvc": "1.0",
     "name": "obj_play_button",
     "eventList": [
-        {
-            "id": "6e48e893-6745-4bc0-847b-05d41ba042d7",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "4161414d-54ed-4200-a716-819771b98985"
-        },
-        {
-            "id": "775dcb93-868d-48f6-9385-5f305328ffc6",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "4161414d-54ed-4200-a716-819771b98985"
-        },
-        {
-            "id": "3ef261be-d0fc-426e-8776-19f4edb7fe6b",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "4161414d-54ed-4200-a716-819771b98985"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": [
+        {
+            "id": "e5483842-f82c-4f5f-b468-d21e19d1c9bc",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "fa919f36-0ce2-4268-9c61-a723aa7d9e70",
+            "propertyId": "b730eea3-b5c9-470c-a4da-4fc1981e419d",
+            "value": "start_menu_button"
+        },
+        {
+            "id": "99781032-7150-4c99-b4aa-4af2b32b58c2",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "fa919f36-0ce2-4268-9c61-a723aa7d9e70",
+            "propertyId": "e7d3e4dd-9a80-45d7-a197-90f12366b821",
+            "value": "spr_play_button_select"
+        },
+        {
+            "id": "50d220ac-2313-4d3d-b868-160e8b661383",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "fa919f36-0ce2-4268-9c61-a723aa7d9e70",
+            "propertyId": "496f4af1-9991-416a-818b-4a0dadfd4cc9",
+            "value": "spr_play_button_deselect"
+        }
+    ],
+    "parentObjectId": "fa919f36-0ce2-4268-9c61-a723aa7d9e70",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

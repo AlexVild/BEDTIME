@@ -15,7 +15,7 @@ var projection_matrix = matrix_build_projection_ortho(default_viewport_width, de
 camera_set_view_mat(view_camera[0], view_matrix);
 camera_set_proj_mat(view_camera[0], projection_matrix);
 
-obj_following = obj_player;
+obj_following = noone;
 
 // screen shaking
 shake_length = 0;

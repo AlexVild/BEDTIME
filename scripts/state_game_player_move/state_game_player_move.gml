@@ -38,6 +38,10 @@ if (argument0 == step) {
 	
 	actor_vulnerable_to(obj_enemy, GamePlayerStates.HIT);
 } else if (argument0 == draw) {
-	sprite_index = spr_player;
+	if (invincible) {
+		sprite_index = spr_player_hurt;
+	} else {
+		sprite_index = spr_player;
+	}
 	draw_self_invincible();
 }

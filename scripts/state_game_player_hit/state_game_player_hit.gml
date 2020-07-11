@@ -9,6 +9,10 @@ if (argument0 == step) {
 		truestate_switch(GamePlayerStates.DEAD);
 	}
 } else if (argument0 == draw) {
-	sprite_index = spr_enemy;
+	if (invincible) {
+		sprite_index = spr_player_hurt;
+	} else {
+		sprite_index = spr_player;
+	}
 	draw_self_invincible();
 }

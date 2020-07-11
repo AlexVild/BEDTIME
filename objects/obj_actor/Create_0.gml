@@ -10,3 +10,4 @@ invincible = false;
 harmful_touch = false;
 invincibility_timer = 20;
 is_hit = false;
+hit_noise = sfx_hit;

@@ -11,3 +11,8 @@ if (can_shoot && mouse_check_button(mb_left)) {
 	can_shoot = false;
 	alarm[1] = shoot_freq;
 }
+
+if (mouse_check_button_pressed(mb_right) && bomb_count > 0) {
+	instance_create_layer(x, y, "TV_2", obj_bomb_explode);
+	bomb_count--;
+}

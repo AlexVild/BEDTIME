@@ -13,6 +13,14 @@ if (global.game_start && step_count > 0) {
 				selected_domain = Domains.ROOM;
 			}
 		}
+		
+		if (keyboard_check_pressed(vk_space)) {
+			selected_domain = Domains.GAME;
+			selected_domain_instance = obj_game_controller;
+			with(selected_domain_instance) {
+				is_selected = true;
+			}
+		}
 	} else {
 		if (keyboard_check_pressed(vk_space)) {
 			if (selected_domain == Domains.GAME) {

@@ -1,6 +1,5 @@
 if (argument0 == step) {
 	if (state_new) {
-		show_debug_message("PURSUE");
 		truestate_clear_history();
 	}
 	

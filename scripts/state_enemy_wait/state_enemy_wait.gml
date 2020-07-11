@@ -1,8 +1,5 @@
 if (argument0 == step) {
 	if (state_new) {
-		if (debug_mode) {
-			show_debug_message("WAIT");
-		}
 		truestate_clear_history();
 	}
 	

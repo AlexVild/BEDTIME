@@ -4,17 +4,28 @@ if (global.game_start && step_count > 0) {
 			var _domain = instance_position(mouse_x, mouse_y, obj_domain_controller);
 			
 			if (_domain != noone) {
-				selected_domain = _domain.domain;
-				selected_domain_instance = _domain;
-				with(selected_domain_instance) {
-					is_selected = true;
+				if(_domain.domain == Domains.GAME) {
+					if (game_instance.screen_is_on) {
+						selected_domain = _domain.domain;
+						selected_domain_instance = _domain;
+						with(selected_domain_instance) {
+							is_selected = true;
+						}
+					}
+				} else {
+					selected_domain = _domain.domain;
+					selected_domain_instance = _domain;
+					with(selected_domain_instance) {
+						is_selected = true;
+					}
 				}
+				
 			} else {
 				selected_domain = Domains.ROOM;
 			}
 		}
 		
-		if (keyboard_check_pressed(vk_space)) {
+		if (keyboard_check_pressed(vk_space) && game_instance.screen_is_on) {
 			selected_domain = Domains.GAME;
 			selected_domain_instance = obj_game_controller;
 			with(selected_domain_instance) {

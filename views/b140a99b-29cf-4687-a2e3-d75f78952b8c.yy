@@ -12,11 +12,15 @@
         "5ee3a0b8-c382-4a3a-bb1a-1c6792dac035",
         "c24040ef-e4af-47bf-bc56-8242594d98b4",
         "894e5a89-ad2d-4a00-9af6-e57ea1fcbec9",
-        "38780b89-f960-4ce9-8b29-35e447f7bdb1",
-        "dd709d3a-29ca-4091-a2f6-99156d4f52e1"
+        "fb04faec-1148-4df0-845b-78c48d46a9f5",
+        "99f0b0b5-d1fc-4c58-be93-945285542fcb",
+        "895393b8-3253-4077-a0b2-2ca7458df05d",
+        "2685f18f-1f71-4511-a525-f892d3bb3db6",
+        "528b9c51-e0f8-409c-a6fb-072e88bb95f6",
+        "3a857689-915a-4874-9c97-bd37e59e9e00"
     ],
     "filterType": "GMSprite",
-    "folderName": "menu",
+    "folderName": "gui buttons",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

@@ -1,0 +1,1 @@
+draw_sprite_ext(pages[page_num], 0, x, y, 1, 1, 0, -1, 1);

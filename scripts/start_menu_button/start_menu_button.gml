@@ -1,1 +1,1 @@
-room_goto(rm_bedroom);
+room_goto(rm_tutorial);

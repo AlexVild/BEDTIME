@@ -1,5 +1,4 @@
 if (!global.game_over) {
-	global.game_start = false;
 	global.game_over = true;
 
 	if (instance_exists(obj_player)) {
@@ -7,4 +6,6 @@ if (!global.game_over) {
 	}
 
 	play_subgame_sound(sfx_game_over);
+	
+	instance_create_layer(192, 128, "Controllers", obj_try_again_button);
 }

@@ -1,2 +1,3 @@
-global.game_start = true;
+instance_create_depth(0, 0, 0, obj_player);
+instance_destroy(obj_mock_phone)
 instance_destroy();

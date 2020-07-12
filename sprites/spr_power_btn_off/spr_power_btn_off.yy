@@ -2,12 +2,12 @@
     "id": "e13c9068-0451-4122-b6e9-7fea4f402939",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_power_btn_pressed",
+    "name": "spr_power_btn_off",
     "For3D": false,
     "HTile": false,
     "VTile": false,
     "bbox_bottom": 14,
-    "bbox_left": 1,
+    "bbox_left": 2,
     "bbox_right": 14,
     "bbox_top": 2,
     "bboxmode": 0,
@@ -16,24 +16,24 @@
     "edgeFiltering": false,
     "frames": [
         {
-            "id": "829c42ad-c3bf-458e-bec6-4320f7c742e6",
+            "id": "f35b1b75-bf7b-410e-8722-7ef0519cd116",
             "modelName": "GMSpriteFrame",
             "mvc": "1.0",
             "SpriteId": "e13c9068-0451-4122-b6e9-7fea4f402939",
             "compositeImage": {
-                "id": "63af4583-b10f-4302-80b6-a0522ccc018d",
+                "id": "73ed5920-98ef-4621-bdac-9e5f9f87eec2",
                 "modelName": "GMSpriteImage",
                 "mvc": "1.0",
-                "FrameId": "829c42ad-c3bf-458e-bec6-4320f7c742e6",
+                "FrameId": "f35b1b75-bf7b-410e-8722-7ef0519cd116",
                 "LayerId": "00000000-0000-0000-0000-000000000000"
             },
             "images": [
                 {
-                    "id": "f19fdc0a-f5c6-43db-91c1-cf16abb2836a",
+                    "id": "5533afdf-5728-41c1-ab19-a5bfc2aca3e9",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
-                    "FrameId": "829c42ad-c3bf-458e-bec6-4320f7c742e6",
-                    "LayerId": "ae1f795a-e98b-4da2-8499-2d51dfab41fe"
+                    "FrameId": "f35b1b75-bf7b-410e-8722-7ef0519cd116",
+                    "LayerId": "54b304c8-a388-4c93-9158-17d83006f2e5"
                 }
             ]
         }
@@ -43,7 +43,7 @@
     "height": 16,
     "layers": [
         {
-            "id": "ae1f795a-e98b-4da2-8499-2d51dfab41fe",
+            "id": "54b304c8-a388-4c93-9158-17d83006f2e5",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
             "SpriteId": "e13c9068-0451-4122-b6e9-7fea4f402939",

@@ -1,57 +1,61 @@
-if (global.game_start && step_count > 0) {
-	if (selected_domain == Domains.ROOM) {
+if (step_count > 0) {
+	var _domain = instance_position(mouse_x, mouse_y, obj_domain_controller);
+	
+	if (selected_domain != Domains.GAME) {
+		// If not currently playing the subgame, user can click on where they want to control
 		if (mouse_check_button(mb_left)) {
-			var _domain = instance_position(mouse_x, mouse_y, obj_domain_controller);
-			
 			if (_domain != noone) {
-				if(_domain.domain == Domains.GAME) {
-					if (game_instance.screen_is_on) {
-						selected_domain = _domain.domain;
-						selected_domain_instance = _domain;
-						with(selected_domain_instance) {
-							is_selected = true;
-						}
-					}
-				} else {
+				if (game_instance.screen_is_on) {
 					selected_domain = _domain.domain;
-					selected_domain_instance = _domain;
-					with(selected_domain_instance) {
-						is_selected = true;
-					}
 				}
-				
 			} else {
 				selected_domain = Domains.ROOM;
 			}
-		}
-		
-		if (keyboard_check_pressed(vk_space) && game_instance.screen_is_on) {
+		} else if (keyboard_check_pressed(vk_space) && game_instance.screen_is_on) { // can press space to quickly game
 			selected_domain = Domains.GAME;
-			selected_domain_instance = obj_game_controller;
-			with(selected_domain_instance) {
-				is_selected = true;
-			}
 		}
-	} else {
-		if (keyboard_check_pressed(vk_space)) {
-			if (selected_domain == Domains.GAME) {
-				// stuff with mouse
-				window_mouse_set(window_get_width() / 2, window_get_height() / 2);
-				window_set_cursor(cr_default);
-			}
+	} else if (selected_domain == Domains.GAME) {
+		if (keyboard_check_pressed(vk_space)) { // must press space to get OUT of game
+			// stuff with mouse
+			//window_mouse_set(window_get_width() / 2, window_get_height() / 2);
+			global.cursor_controller.something_selected = true;
 			
 			selected_domain = Domains.ROOM;
-			with(selected_domain_instance) {
-				is_selected = false;	
-			}
-			selected_domain_instance = noone;
 		}
 	}
 	
-} else {
-	if (!instance_exists(obj_start_button)) {
-		instance_create_layer(room_width/2, room_height/4 * 3, "Controllers", obj_start_button);
+	if (_domain != noone && selected_domain != _domain.domain) {
+		global.cursor_controller.something_selected = true;
 	}
+	
+	// select the instance that should be selected
+	switch(selected_domain) {
+		case Domains.ROOM:
+			with(phone_instance) {
+				is_selected = false;
+			}
+			with(game_instance) {
+				is_selected = false;
+			}
+			break;
+		case Domains.GAME:
+			with(phone_instance) {
+				is_selected = false;
+			}
+			with(game_instance) {
+				is_selected = true;
+			}
+			break;
+		case Domains.PHONE:
+			with(phone_instance) {
+				is_selected = true;
+			}
+			with(game_instance) {
+				is_selected = false;
+			}
+			break;
+	}
+	
 }
 
 step_count++; // used to ignore an accidental first click after starting the game

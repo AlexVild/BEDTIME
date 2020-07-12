@@ -1,11 +1,9 @@
 if (position_meeting(mouse_x, mouse_y, id)) {
-	window_set_cursor(cr_handpoint);
+	global.cursor_controller.something_selected = true;
 	
 	if (mouse_check_button_pressed(mb_left)) {
 		pad_pressed = true;
 	}
-} else {
-	window_set_cursor(cr_default);
 }
 
 if (pad_pressed) {

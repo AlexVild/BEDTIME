@@ -1,7 +1,15 @@
-if (!button_pressed) {
-	sprite_index = spr_power_btn;	
+if (button_pressed) {
+	if (power_off) {
+		sprite_index = spr_power_btn_off_pressed;
+	} else {
+		sprite_index = spr_power_btn_on_pressed;
+	}
 } else {
-	sprite_index = spr_power_btn_pressed;
+	if (power_off) {
+		sprite_index = spr_power_btn_off;
+	} else {
+		sprite_index = spr_power_btn;
+	}
 }
 
 draw_self();

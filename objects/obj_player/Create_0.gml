@@ -1,10 +1,9 @@
 selected_domain = Domains.ROOM;
 selected_domain_instance = noone;
 
-global.game_start = false;
 global.game_over = false;
 
-game_instance = instance_create_layer(246, 140, "TV_1", obj_game_controller);
+game_instance = instance_create_layer(206, 140, "TV_1", obj_game_controller);
 with (game_instance) {
 	player_instance = other.id;	
 }

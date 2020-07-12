@@ -1,3 +1,8 @@
+var _lay_id = layer_get_id("TV_Overlay");
+var _back_id = layer_background_get_id(_lay_id);
+
 if (display) {
-	draw_sprite_ext(spr_game_screen_off, 0, x, y, 1, 1, 0, -1, 1);
+	layer_background_sprite(_back_id, spr_game_screen_overlay_off);
+} else {
+	layer_background_sprite(_back_id, spr_game_screen_overlay_on);
 }

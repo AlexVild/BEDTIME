@@ -7,7 +7,8 @@
         "525096aa-5fbe-4884-b5ca-c9c05525e958",
         "0e2934ec-80fb-4419-acab-93a351d6d207",
         "979740b1-6096-413b-a14c-2d3e795d6f14",
-        "ca50873c-0be9-4251-9e3c-7b389517d6d2"
+        "ca50873c-0be9-4251-9e3c-7b389517d6d2",
+        "97f68917-1834-47f2-8db5-f4d3e1007f09"
     ],
     "filterType": "GMSprite",
     "folderName": "phone",

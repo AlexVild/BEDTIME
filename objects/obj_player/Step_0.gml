@@ -3,7 +3,7 @@ if (step_count > 0) {
 	
 	if (selected_domain != Domains.GAME) {
 		// If not currently playing the subgame, user can click on where they want to control
-		if (mouse_check_button(mb_left)) {
+		if (mouse_check_button_pressed(mb_left)) {
 			if (_domain != noone) {
 				if (game_instance.screen_is_on) {
 					selected_domain = _domain.domain;

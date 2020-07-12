@@ -439,14 +439,6 @@
             }
         },
         {
-            "Key": "3a857689-915a-4874-9c97-bd37e59e9e00",
-            "Value": {
-                "id": "afc07321-7eb9-4d39-9650-e005b19f70b5",
-                "resourcePath": "sprites\\spr_end_tutorial_select\\spr_end_tutorial_select.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "3c24114f-ba26-4993-8521-d58e61b5514a",
             "Value": {
                 "id": "1df188a2-651b-4a0d-82aa-1270c7a34f3b",
@@ -700,6 +692,14 @@
                 "id": "ea56559c-427e-4814-8c1e-7ad1ce5634d7",
                 "resourcePath": "objects\\obj_health_pickup\\obj_health_pickup.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6c101ea9-b628-463a-a93d-39b7d590de53",
+            "Value": {
+                "id": "587180f2-27c5-429c-8a9c-3dcd850a0302",
+                "resourcePath": "sprites\\spr_title_screen\\spr_title_screen.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1095,6 +1095,14 @@
             }
         },
         {
+            "Key": "9e8ab004-474d-4b45-a41e-6726ae96f6bd",
+            "Value": {
+                "id": "4851b8dc-1bb8-49a8-980c-4c8e24bc0bb3",
+                "resourcePath": "sprites\\spr_tut_4\\spr_tut_4.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9ebc9f33-03a2-4c1c-9f4a-aca9d31cc925",
             "Value": {
                 "id": "7586fbe7-d18e-4e00-a52b-620ba29cf0e0",
@@ -1364,6 +1372,14 @@
                 "id": "8b694397-ddb6-4acd-b48f-93790928e466",
                 "resourcePath": "objects\\obj_tut_end_button\\obj_tut_end_button.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c7afd54d-e9eb-430a-abc5-a38bbe11061a",
+            "Value": {
+                "id": "1c384aaf-c49e-429b-b898-17f12bce5b51",
+                "resourcePath": "sprites\\spr_end_tutorial_select\\spr_end_tutorial_select.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

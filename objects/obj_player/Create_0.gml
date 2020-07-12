@@ -1,4 +1,4 @@
-selected_domain = Domains.ROOM;
+selected_domain = Domains.GAME;
 selected_domain_instance = noone;
 
 global.game_over = false;

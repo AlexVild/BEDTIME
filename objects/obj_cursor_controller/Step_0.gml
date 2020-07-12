@@ -3,7 +3,7 @@ if (something_selected) {
 } else {
 	window_set_cursor(cr_default);
 }
-if (hide_cursor) {
+if (hide_cursor && !global.game_over) {
 	window_set_cursor(cr_none);	
 }
 

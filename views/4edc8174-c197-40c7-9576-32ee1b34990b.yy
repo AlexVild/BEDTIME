@@ -12,7 +12,8 @@
         "4e0f67b4-5866-416c-82b4-a477d0ca36f3",
         "889de1db-554f-45cb-bcda-3948bcf8ce66",
         "d9dbd9b0-df70-46ea-8fa5-5575cf4c8eb4",
-        "1d1082bc-685e-4370-8363-cc4970915249"
+        "1d1082bc-685e-4370-8363-cc4970915249",
+        "1b42d0ce-4f48-42d8-a860-7ea4bdee1d74"
     ],
     "filterType": "GMSound",
     "folderName": "ambient",

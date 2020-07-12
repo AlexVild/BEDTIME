@@ -10,7 +10,8 @@
         "f22040e7-b94c-4bf7-9824-9246952049b1",
         "f7dae517-f046-40af-82b4-52d32163d166",
         "3da6a11a-19a2-4361-b448-90e94d642b07",
-        "2b235487-0caa-4a32-84ad-3f3558a2fbbd"
+        "2b235487-0caa-4a32-84ad-3f3558a2fbbd",
+        "f49d8f32-a284-4a40-8226-fbe6442a0e6f"
     ],
     "filterType": "GMSound",
     "folderName": "subgame",

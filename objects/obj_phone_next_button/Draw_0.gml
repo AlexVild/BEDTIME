@@ -5,5 +5,5 @@ if (phone_instance.state == PhoneState.OPEN) {
 		sprite_index = spr_phone_next_depressed;	
 	}
 	
-	draw_self();	
+	draw_self();
 }

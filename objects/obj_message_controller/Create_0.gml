@@ -28,4 +28,6 @@ message_variance = 60 * irandom_range(0, 10);
 
 last_message_indices = ds_list_create();
 
+dad_coming_up_time = 300;
+
 alarm[0] = message_interval + message_variance;

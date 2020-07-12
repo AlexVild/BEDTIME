@@ -35,10 +35,10 @@ if (!global.game_over) {
 		enemy_spawn_timer -= 15;
 		enemy_spawn_timer = clamp(enemy_spawn_timer, 25, 120);
 			
-		player_instance.phone_instance.message_instance.message_interval = 60 * (10 - (message_frequency_mod * 2));
-		player_instance.phone_instance.message_instance.message_variance = 60 * irandom_range(0, 10 - message_frequency_mod);
-		message_frequency_mod--;
-		message_frequency_mod = clamp(message_frequency_mod, 6, 10);
+		//player_instance.phone_instance.message_instance.message_interval = 60 * (10 - (message_frequency_mod * 2));
+		//player_instance.phone_instance.message_instance.message_variance = 60 * irandom_range(0, 10 - message_frequency_mod);
+		//message_frequency_mod--;
+		//message_frequency_mod = clamp(message_frequency_mod, 6, 10);
 		difficulty_score_thresh += 100;
 	}
 }

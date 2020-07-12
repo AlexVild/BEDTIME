@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "0fa51116-da16-4e45-9598-02b54a54c33e",
+            "Value": {
+                "id": "bdbb3c07-349f-4fac-b42f-98866fc4f727",
+                "resourcePath": "sprites\\spr_door_opening\\spr_door_opening.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0fd7f3c5-a152-4e80-a963-4a95d13b3b40",
             "Value": {
                 "id": "f2e3175e-b548-44ff-8be8-83edf3c50ff5",
@@ -487,6 +495,14 @@
             }
         },
         {
+            "Key": "62f3c5bd-65d1-4e2b-b46d-c6b551b489a3",
+            "Value": {
+                "id": "5849726c-af9b-4af8-8f5c-ecc5b2c5fef3",
+                "resourcePath": "objects\\obj_door\\obj_door.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "63db3388-7c8b-4411-b911-977c98361a4a",
             "Value": {
                 "id": "41cd37d8-659d-423e-97f9-05e5c7153ff7",
@@ -743,6 +759,14 @@
             }
         },
         {
+            "Key": "97246168-8a73-4b73-a523-bab8e5a5159e",
+            "Value": {
+                "id": "1e55dd8d-9074-4158-b151-c27aa14815da",
+                "resourcePath": "sprites\\spr_door_closing\\spr_door_closing.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "979740b1-6096-413b-a14c-2d3e795d6f14",
             "Value": {
                 "id": "f7513798-c5b0-46eb-b959-cb55893633bc",
@@ -796,6 +820,22 @@
                 "id": "303a2f09-1e8f-4602-b1be-65d8c6f13362",
                 "resourcePath": "views\\9bd08c1a-9b9b-472e-a6c1-9844a522fdc0.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9d2d5324-2591-4942-8b3f-93005b9980cd",
+            "Value": {
+                "id": "6c8de071-bc6d-41ef-af28-d832af3d6011",
+                "resourcePath": "objects\\obj_door_opening\\obj_door_opening.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9d809169-1712-4a35-b04c-13e782905bf0",
+            "Value": {
+                "id": "284b7396-bff6-426d-b519-8bc1c3543b45",
+                "resourcePath": "objects\\obj_door_closing\\obj_door_closing.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1015,6 +1055,14 @@
             }
         },
         {
+            "Key": "c9c010d4-431c-432b-9986-b1c484577b80",
+            "Value": {
+                "id": "d81d1035-33a0-4797-a47b-36f5c4763cff",
+                "resourcePath": "views\\c9c010d4-431c-432b-9986-b1c484577b80.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "ca50873c-0be9-4251-9e3c-7b389517d6d2",
             "Value": {
                 "id": "d8252e43-0299-4422-8742-2b71c58c68cc",
@@ -1052,6 +1100,22 @@
                 "id": "5ec65848-02bd-4a25-90a4-27aba320269e",
                 "resourcePath": "scripts\\truestate_switch_previous\\truestate_switch_previous.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d1b4979c-e797-4a96-86ff-d08c13f7726a",
+            "Value": {
+                "id": "db074552-a56a-4b00-b78f-7fc0265ef687",
+                "resourcePath": "sprites\\spr_door_opened\\spr_door_opened.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d28d1645-47a3-4ce6-a0b1-689c5a4a033a",
+            "Value": {
+                "id": "81e07e0a-8cbe-451e-82c4-002799c27298",
+                "resourcePath": "views\\d28d1645-47a3-4ce6-a0b1-689c5a4a033a.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1276,6 +1340,14 @@
                 "id": "4a6d0b62-c755-43bb-92e7-04ad25fa6018",
                 "resourcePath": "scripts\\state_game_player_hit\\state_game_player_hit.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "f0d3dac6-23d8-43fe-aa9f-5108856b48be",
+            "Value": {
+                "id": "c0bf81dc-ed88-4010-b6b1-baf8aa2c1bda",
+                "resourcePath": "sprites\\spr_door_closed\\spr_door_closed.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

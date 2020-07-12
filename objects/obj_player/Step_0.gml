@@ -58,4 +58,14 @@ if (step_count > 0) {
 	
 }
 
+if (keyboard_check_pressed(ord("Y"))) {
+	with(obj_door) {
+		if (door_closed) {
+			open_door = true;
+		} else {
+			close_door = true;
+		}
+	}
+}
+
 step_count++; // used to ignore an accidental first click after starting the game

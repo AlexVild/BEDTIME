@@ -27,8 +27,8 @@ possible_messages[? possible_senders[7]] = "YOU KNOW\nTHE PS5 IS\nOUT,\nRIGHT?";
 possible_messages[? possible_senders[8]] = "SPEEEEN!";
 possible_messages[? possible_senders[9]] = "THIS IS\nREMINISCENT\nOF SUPER\nMETROID...";
 
-message_interval = 60 * 8;
-message_variance = 60 * irandom_range(-1, 6);
+message_interval = 60 * 7;
+message_variance = 60 * irandom_range(-1, 7);
 
 last_message_indices = ds_list_create();
 

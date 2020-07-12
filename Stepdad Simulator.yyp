@@ -567,6 +567,14 @@
             }
         },
         {
+            "Key": "6c205f99-d6e0-4c7a-9889-2ee0d8b24dbe",
+            "Value": {
+                "id": "f2599d3c-a0dc-4d8e-8594-9a77615610de",
+                "resourcePath": "objects\\obj_crosshair\\obj_crosshair.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6da82ae5-3ef1-4993-8982-69b2de89ec98",
             "Value": {
                 "id": "2f58d4f6-b364-48bf-887f-b679d6f20e27",
@@ -724,6 +732,14 @@
                 "id": "e28b51ad-b94e-4137-aa96-2def7b905ef8",
                 "resourcePath": "views\\89f06eeb-891c-44ab-a903-5210d02ec0ef.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8d182ff2-ed1d-4079-a966-39fe5e0568e5",
+            "Value": {
+                "id": "5c3fa354-aafa-489a-9a7f-069ebd1f89c3",
+                "resourcePath": "objects\\obj_subgame_instance\\obj_subgame_instance.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1124,6 +1140,14 @@
                 "id": "d4380140-6769-4f2c-806f-4e152af56339",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cd43460b-4ab0-4ec0-a4cc-6c374f61a4c0",
+            "Value": {
+                "id": "15daa84b-bf78-46ec-8065-a4530a2724f8",
+                "resourcePath": "sprites\\spr_crosshair\\spr_crosshair.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

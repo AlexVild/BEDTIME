@@ -12,7 +12,8 @@
         "f022fd26-b996-4c32-862e-996ecedaffa8",
         "b8115701-6bfc-4410-a84a-cdad1e066bb8",
         "b4ee6e15-052f-48e7-abee-d754bd7a00cd",
-        "916ca37e-1b6a-4b3a-922b-da4eef042b06"
+        "916ca37e-1b6a-4b3a-922b-da4eef042b06",
+        "cd43460b-4ab0-4ec0-a4cc-6c374f61a4c0"
     ],
     "filterType": "GMSprite",
     "folderName": "game_spr",

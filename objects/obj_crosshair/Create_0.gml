@@ -1,0 +1,1 @@
+game_instance = noone;

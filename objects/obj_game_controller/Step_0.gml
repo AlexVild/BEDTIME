@@ -12,8 +12,8 @@ if (!global.game_over) {
 	
 	if (is_selected) {
 		window_mouse_set(
-			clamp(window_mouse_get_x(),250,window_get_width() - 250),
-			clamp(window_mouse_get_y(),100,window_get_height() - 100)
+			clamp(window_mouse_get_x(),350,window_get_width() - 510),
+			clamp(window_mouse_get_y(),120,window_get_height() - 136)
 		);
 	}
 	
@@ -44,23 +44,7 @@ if (!global.game_over) {
 }
 
 if (global.game_over) {
-	with(obj_enemy) {
-		instance_destroy();
-	}
-	
-	with(obj_bomb_explode) {
-		instance_destroy();
-	}
-	
-	with(obj_health_pickup) {
-		instance_destroy();
-	}
-	
-	with(obj_bomb_pickup) {
-		instance_destroy();
-	}
-	
-	with(obj_game_player) {
-		instance_destroy();
+	with(obj_subgame_instance) {
+		instance_destroy();	
 	}
 }

@@ -17,7 +17,6 @@ if (step_count > 0) {
 	} else if (selected_domain == Domains.GAME) {
 		if (keyboard_check_pressed(vk_space)) { // must press space to get OUT of game
 			// stuff with mouse
-			//window_mouse_set(window_get_width() / 2, window_get_height() / 2);
 			global.cursor_controller.something_selected = true;
 			
 			selected_domain = Domains.ROOM;
@@ -45,6 +44,8 @@ if (step_count > 0) {
 			with(game_instance) {
 				is_selected = true;
 			}
+			
+			global.cursor_controller.hide_cursor = true;
 			break;
 		case Domains.PHONE:
 			with(phone_instance) {

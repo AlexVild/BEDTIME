@@ -3,5 +3,9 @@ if (something_selected) {
 } else {
 	window_set_cursor(cr_default);
 }
+if (hide_cursor) {
+	window_set_cursor(cr_none);	
+}
 
 something_selected = false;
+hide_cursor = false;

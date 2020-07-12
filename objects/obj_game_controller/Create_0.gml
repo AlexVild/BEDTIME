@@ -8,4 +8,9 @@ message_frequency_mod = 1;
 difficulty_score_thresh = 100;
 difficulty_score_add = 100;
 
+crosshair = instance_create_layer(mouse_x, mouse_y, "TV_2", obj_crosshair);
+with (crosshair) {
+	game_instance = other.id;	
+}
+
 play_bounds = [bbox_left + 10, bbox_top + 10, bbox_right - 10, bbox_bottom - 50];

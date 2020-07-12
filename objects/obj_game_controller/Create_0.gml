@@ -14,3 +14,5 @@ with (crosshair) {
 }
 
 play_bounds = [bbox_left + 10, bbox_top + 10, bbox_right - 10, bbox_bottom - 50];
+
+audio_play_sound(sfx_tv_hum, 0, true);

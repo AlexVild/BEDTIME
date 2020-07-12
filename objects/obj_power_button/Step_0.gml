@@ -11,6 +11,7 @@ if (instance_exists(obj_player)) {
 	
 	if (button_pressed) {
 		if(mouse_check_button_released(mb_left)) {
+			audio_play_sound(sfx_tv_switch, 0, false);
 			power_off = !power_off;
 			toggle_screen_display(power_off);
 			button_pressed = false;

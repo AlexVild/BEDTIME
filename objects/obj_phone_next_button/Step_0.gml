@@ -13,6 +13,7 @@ if (phone_loaded) {
 
 	if (pad_pressed) {
 		if (mouse_check_button_released(mb_left)) {
+			audio_play_sound(sfx_cellphone_press, 0, false);
 			pad_pressed = false;
 			ds_list_delete(phone_instance.message_instance.messages, 0);
 		}

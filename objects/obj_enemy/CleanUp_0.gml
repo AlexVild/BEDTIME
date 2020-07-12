@@ -7,7 +7,7 @@ if (!global.game_over) {
 		instance_create_layer(x, y, layer, obj_health_pickup);
 	}
 
-	if (i > 12 && i <= 16) {
+	if (i > 12 && i <= 14) {
 		instance_create_layer(x, y, layer, obj_bomb_pickup);
 	}
 }

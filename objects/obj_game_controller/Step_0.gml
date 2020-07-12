@@ -39,7 +39,7 @@ if (!global.game_over) {
 		//player_instance.phone_instance.message_instance.message_variance = 60 * irandom_range(0, 10 - message_frequency_mod);
 		//message_frequency_mod--;
 		//message_frequency_mod = clamp(message_frequency_mod, 6, 10);
-		difficulty_score_thresh += 100;
+		difficulty_score_thresh += difficulty_score_add;
 	}
 }
 

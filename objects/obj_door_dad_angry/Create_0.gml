@@ -1,0 +1,1 @@
+audio_play_sound(sfx_angry_dad, 0, false);

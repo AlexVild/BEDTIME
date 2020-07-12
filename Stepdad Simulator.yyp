@@ -1151,6 +1151,14 @@
             }
         },
         {
+            "Key": "a9a8d2a2-f92f-460a-af1b-3790b27cc49e",
+            "Value": {
+                "id": "f95d4387-99e5-4de0-a478-c9b5718d58a8",
+                "resourcePath": "sounds\\sfx_angry_dad\\sfx_angry_dad.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "aa2dc28e-e961-428e-bd67-e4d1d58b4358",
             "Value": {
                 "id": "fad62dd5-1e25-4231-bac7-15cba06a184d",

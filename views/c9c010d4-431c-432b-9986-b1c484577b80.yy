@@ -6,7 +6,9 @@
     "children": [
         "62f3c5bd-65d1-4e2b-b46d-c6b551b489a3",
         "9d2d5324-2591-4942-8b3f-93005b9980cd",
-        "9d809169-1712-4a35-b04c-13e782905bf0"
+        "9d809169-1712-4a35-b04c-13e782905bf0",
+        "9010e029-b680-4dfa-bed2-f447b0b95921",
+        "82e043df-e120-443a-9627-490f6f3ffd76"
     ],
     "filterType": "GMObject",
     "folderName": "door",

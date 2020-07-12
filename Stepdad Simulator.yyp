@@ -647,6 +647,14 @@
             }
         },
         {
+            "Key": "7b52c613-ad3c-4ffa-a060-7617d4b23c01",
+            "Value": {
+                "id": "7f8ad578-d730-41bf-aa31-96efa47118ce",
+                "resourcePath": "sprites\\spr_dad_angry_door\\spr_dad_angry_door.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7c040a28-f913-4c9d-9c96-10b6b9c7bba1",
             "Value": {
                 "id": "048616cf-d74e-4281-9ea4-42449673bb3e",
@@ -676,6 +684,14 @@
                 "id": "92875e31-103e-47d3-acc4-f85fa3c027ab",
                 "resourcePath": "views\\827bc647-c124-431a-aea8-88e6d96ecbf5.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "82e043df-e120-443a-9627-490f6f3ffd76",
+            "Value": {
+                "id": "cdbf12f1-31f9-49f9-90b1-1a2cbd637177",
+                "resourcePath": "objects\\obj_door_dad_angry\\obj_door_dad_angry.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -716,6 +732,14 @@
                 "id": "6e9a70af-f225-4e98-868e-9c659faa331c",
                 "resourcePath": "sprites\\spr_health_empty\\spr_health_empty.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9010e029-b680-4dfa-bed2-f447b0b95921",
+            "Value": {
+                "id": "c8848f8b-83ad-4033-b47d-15c7c3f02c20",
+                "resourcePath": "objects\\obj_door_dad_busting_in\\obj_door_dad_busting_in.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -964,6 +988,14 @@
                 "id": "f75d8691-8295-4775-b971-9379d64903e7",
                 "resourcePath": "views\\b140a99b-29cf-4687-a2e3-d75f78952b8c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b3595610-bc1c-4a2d-9dec-f0ae9d7bd2da",
+            "Value": {
+                "id": "89a7038a-4ed9-4f6e-9732-aa0ad0ccb456",
+                "resourcePath": "sprites\\spr_door_dad_coming_in\\spr_door_dad_coming_in.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

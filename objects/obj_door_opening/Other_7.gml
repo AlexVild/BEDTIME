@@ -1,4 +1,6 @@
 door_instance.door_opened = true;
 door_instance.door_closed = false;
-instance_create_depth(0, 0, 0, obj_dad);
+if (!global.game_over) {
+	instance_create_depth(x, y, depth, obj_dad);
+}
 instance_destroy();

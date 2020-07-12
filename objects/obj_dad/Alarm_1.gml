@@ -1,1 +1,1 @@
-instance_destroy();
+done_checking = true;

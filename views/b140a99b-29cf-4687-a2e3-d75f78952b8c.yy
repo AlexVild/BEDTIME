@@ -15,9 +15,11 @@
         "fb04faec-1148-4df0-845b-78c48d46a9f5",
         "99f0b0b5-d1fc-4c58-be93-945285542fcb",
         "895393b8-3253-4077-a0b2-2ca7458df05d",
-        "2685f18f-1f71-4511-a525-f892d3bb3db6",
+        "16cc3aff-761b-4e49-a0b9-1255f1410934",
         "528b9c51-e0f8-409c-a6fb-072e88bb95f6",
-        "3a857689-915a-4874-9c97-bd37e59e9e00"
+        "3a857689-915a-4874-9c97-bd37e59e9e00",
+        "a0dfcd63-e002-4d0a-9be4-c44451c60908",
+        "fcae540c-c8f4-4731-8d14-27f77b7ea960"
     ],
     "filterType": "GMSprite",
     "folderName": "gui buttons",

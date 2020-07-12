@@ -26,6 +26,7 @@ if (!instance_exists(obj_dad)) {
 		}
 	
 		ds_list_add(messages, possible_messages[? possible_senders[_i]]);
+		total_messages += 1;
 		audio_play_sound(sfx_phone_vibrate, 0, false);
 	}
 }

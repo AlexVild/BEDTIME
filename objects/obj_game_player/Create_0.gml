@@ -16,4 +16,4 @@ shoot_freq = 15;
 bomb_count = 1;
 hit_noise = sfx_player_hit;
 
-invincibility_timer = 120;
+invincibility_timer = 1200000;

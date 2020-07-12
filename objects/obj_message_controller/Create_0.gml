@@ -3,28 +3,32 @@ messages = ds_list_create();
 phone_instance = noone;
 
 possible_senders = [
-	"BRO",
-	"SAM",
-	"TIM",
-	"ATT",
-	"MODANG",
-	"WORK",
-	"LOVER",
-	"GRANDMA",
+	"\nBROTHER",
+	"DAD",
+	"\nWEATHER",
+	"CHEF D",
+	"\nMIKE S.",
+	"\nPZZA PLNT",
+	"\nUNKNOWN",
+	"JERK",
+	"VINNY",
+	"MARK",
 ]
 
 possible_messages = ds_map_create();
-possible_messages[? possible_senders[0]] = "DADDY'S COMIN!!!";
-possible_messages[? possible_senders[1]] = "I'M BORED";
-possible_messages[? possible_senders[2]] = "DUDE WHAT'S GOOD??";
-possible_messages[? possible_senders[3]] = "YOUR SERVICE PLAN IS LOOKIN GOOD!";
-possible_messages[? possible_senders[4]] = "YOUR ACCOUNT HAS BEEN COMPROMISED!";
-possible_messages[? possible_senders[5]] = "THAT DOES IT. YOU'RE FIRED!";
-possible_messages[? possible_senders[6]] = "XOXOXOXO";
-possible_messages[? possible_senders[7]] = "XOXOXOXO";
+possible_messages[? possible_senders[0]] = "DADDY'S\nCOMIN!!!";
+possible_messages[? possible_senders[1]] = "HEY, HEADIN\nHOME NOW.";
+possible_messages[? possible_senders[2]] = "HEY, HEAVY\nWINDS NOW";
+possible_messages[? possible_senders[3]] = "DANNY'S\nCOOKIN'!!!";
+possible_messages[? possible_senders[4]] = "YOU KNOW,\nTHAT REMINDS\nME OF\nSTAR TREK...";
+possible_messages[? possible_senders[5]] = "THAT DOES\nIT. YOU'RE\nFIRED!";
+possible_messages[? possible_senders[6]] = "XOXO\n-GRANDMA";
+possible_messages[? possible_senders[7]] = "YOU KNOW\nTHE PS5 IS\nOUT,\nRIGHT?";
+possible_messages[? possible_senders[8]] = "SPEEEEN!";
+possible_messages[? possible_senders[9]] = "THIS IS\nREMINISCENT\nOF SUPER\nMETROID...";
 
-message_interval = 60 * 10;
-message_variance = 60 * irandom_range(0, 10);
+message_interval = 6 * 10;
+message_variance = 6 * irandom_range(0, 10);
 
 last_message_indices = ds_list_create();
 

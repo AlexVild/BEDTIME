@@ -1,13 +1,13 @@
+event_inherited();
+
 if (!global.game_over) {
 	var i = irandom_range(0, 99);
 
-	if (i <= 15) {
+	if (i <= 12) {
 		instance_create_layer(x, y, layer, obj_health_pickup);
 	}
 
-	if (i > 15 && i <= 20) {
+	if (i > 12 && i <= 16) {
 		instance_create_layer(x, y, layer, obj_bomb_pickup);
 	}
-
-	event_inherited();
 }
